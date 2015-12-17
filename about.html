@@ -25,10 +25,144 @@
 </head>
 
 <body>
+    <header class="fixed-top bg-cblue">
+            <nav id="navbar"  class="navbar navbar- fixed-top navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">FREELANCER</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html" class="active">PORTFOLIO</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+             </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <div class="content">
+    <div class="hheading  bg-green t-white text-center pd-3">
+        <h1>SUPER STAR</h1>
+        <div class="separador">
+            <div class="line"></div><i class="fa fa-star"></i><div class="line"></div>
+        </div>
+
+        <h5>Web Developer - Graphic Artist - User experience Designer</h5>
+    </div>
+    <div class="pd-3" id="portfolio">
+        <div class="container text-center">
+            <h3>PORTFOLIO</h3>
+            <div class="separadorb">
+                <div class="line"></div><i class="fa fa-star"></i><div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/portfolio/cabin.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/portfolio/cake.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/portfolio/circus.png" alt="" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/portfolio/game.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/portfolio/safe.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/portfolio/submarine.png" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div><!--portfolio-->
+    <div class="bg-green pd-3" id="about">
+
+        <div class="container text-center t-white">
+            <h3>ABOUT</h3>
+            <div class="separador">
+                <div class="line"></div><i class="fa fa-star"></i><div class="line"></div>
+            </div>
+            <div class="row pdlados">
+                <div class="col-sm-6  pd-3 col-xs-12 col-centered">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum molestiae et explicabo sapiente omnis cupiditate, repellendus aut perferendis quidem quae maxime perspiciatis velit ea consequuntur sed? Dolorum, soluta, at?
+                </div>
+                <div class="col-sm-6 pd-3 col-xs-12 col-centered">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolorum molestiae et explicabo sapiente omnis cupiditate, repellendus aut perferendis quidem quae maxime perspiciatis velit ea consequuntur sed? Dolorum, soluta, at?
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact pd-3">
+        <div class="container text-center">
+            <h3>CONTACT ME</h3>
+            <div class="separadorb">
+                <div class="line"></div><i class="fa fa-star"></i><div class="line"></div>
+            </div>
+            <form class="col-md-offset-2 col-md-8">
+                    <div class="form-group">
+                    <label class="sr-only" for="inputName">Name</label>
+                    <input type="name" class="form-control" id="inputEmail" placeholder="Name">
+                </div>          
+                <div class="form-group">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputName">Phone Number</label>
+                    <input type="phonenumber" class="form-control" id="inputEmail" placeholder="Phone Number">
+                </div>  
+                <div class= "form-group">
+                    <label class="sr-only" >Message</label>
+                    <textarea class="form-control"  placeholder="Message"></textarea>   
+                </div>
+                <button type="submit" class="btn  btn-primary bg-green t-white">Send</button>
+            </form>
+        </div>
+    </div>
+
+    </div><!--content-->
+
+    <footer class="bg-cblue pd-3">
+        <div class="container t-white text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>LOCATION</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dolorum! </p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>AROUND THE WEB</h4>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <h4>ABOUT FREELANCER</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dolorum!  by <a href="">Start Bootstrap</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="bg-dblue text-center t-white ">Copyright Year website 2015</footer>
+    
     <!-- Inserta tu código aqui -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/freelancer.js"></script>
 </body>
+
 
 </html>
